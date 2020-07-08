@@ -8,6 +8,7 @@ Output: 7 -> 0 -> 8
 Explanation: 342 + 465 = 807.
 Here is the function signature as a starting point (in Python):
 
+```
 # Definition for singly-linked list.
 class ListNode(object):
   def __init__(self, x):
@@ -31,3 +32,4 @@ while result:
   print result.val,
   result = result.next
 # 7 0 8
+```
